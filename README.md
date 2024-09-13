@@ -32,6 +32,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Other Important Documents:
 [API](https://restcountries.com/v3.1/all)
+[Angular Docs](https://v17.angular.io/docs)
+[API DOCS](https://flagsapi.com/)
+
 
 
 
