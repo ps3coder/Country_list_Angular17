@@ -1,0 +1,28 @@
+<div class="header">
+        <!-- For Search Filter -->
+  <input
+    type="text"
+    placeholder="Search..."
+    [(ngModel)]="searchText"
+    (input)="filterCountries()"
+  />
+
+  <!-- For Dropdown Filter-->
+
+  <select (change)="onContinentChange($event)">
+<option *ngFor="let continent of continents" [value]="continent">{{continent}}</option>
+  </select>
+</div>
+<div class="main">
+  <div class="country-cards">
+    <div *ngFor="let country of filteredCountries" class="country-card">
+      <img [src]="country.flags.png" alt="Flag" />
+      <h3>{{ country.name.common }}</h3>
+      <p>Capital: {{ country.capital }}</p>
+      <p>Area: {{country.area}} sqKM</p>
+      <p>Population: {{ country.population }}</p>
+      <p>Continent: {{ country.continents}}</p>
+      
+    </div>
+  </div>
+</div>
