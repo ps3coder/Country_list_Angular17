@@ -30,6 +30,9 @@ https://github.com/ps3coder/Country_list_Angular_frame.git
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+## Other Important Documents:
+[API](https://restcountries.com/v3.1/all)
+
 
 
 
