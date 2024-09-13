@@ -11,6 +11,10 @@ A simple Angular Framerwork web application to display a list of countries in ca
   - **Filtering**: Filter countries by name or region using an input field.
   - **Responsive Design**: The layout is responsive, ensuring a good experience on different screen sizes.
 
+## Screenshot
+
+![Login Page](https://github.com/ps3coder/Country_list_Angular_frame/blob/main/Screenshot%202024-09-13%20223657.png)
+
 
 ## Tech Stack
 
